@@ -98,6 +98,9 @@ body {
   background-color: var(--Very-dark-blue-main-BG);
   padding: 4rem 2rem;
   color: var(--Soft-blue);
+  display:flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /*card*/
@@ -107,7 +110,6 @@ body {
   padding: 1.5rem;
   border-radius: 1rem;
   max-width: 345px;
-  margin: 0 auto;
 }
 
 /*card image*/
@@ -207,10 +209,6 @@ body {
 
 .image__box {
   position: relative;
-}
-
-.card-img {
-  display: block;
 }
 
 .overlay {
